@@ -68,7 +68,7 @@ body{
     background-color:#F2C2C2;
     width: 50%;
     text-align: center;
-    padding: 21.5px 0px;
+    padding: 21.5px 5px;
     border-radius: 16px;
     transition: 0.3s;
 }
@@ -122,6 +122,13 @@ body{
 @media(max-width: 1200px){
     .apresentacao-pagina-1{
         flex-direction: column-reverse;
+        width: auto;
+    }
+    .apresentacao-conteudo h1{
+        font-size: 2rem;
+    }
+    .link{
+        font-size: 1.25rem;
     }
     .apresentacao-pagina-2{
         flex-direction: column-reverse;
@@ -137,6 +144,6 @@ body{
         height: 75%;  
     }
     .imagem{
-        width: 80%;
+        width: 100%;
     }
 }

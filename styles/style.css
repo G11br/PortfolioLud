@@ -68,7 +68,7 @@ body{
     background-color:#F2C2C2;
     width: 50%;
     text-align: center;
-    padding: 21.5px 5px;
+    padding: 21.5px 0px;
     border-radius: 16px;
     transition: 0.3s;
 }
@@ -127,7 +127,11 @@ body{
     .apresentacao-conteudo h1{
         font-size: 2rem;
     }
+    .apresentacao-links{
+        flex-direction: column;
+    }
     .link{
+        width: 80%;
         font-size: 1.25rem;
     }
     .apresentacao-pagina-2{

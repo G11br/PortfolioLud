@@ -23,10 +23,7 @@ body{
     color: white;
     font-size: 1.5rem;
 }
-.apresentacao{
-    display: flex;
-    flex-direction: column;
-}
+
 .apresentacao-pagina-1{
     display: flex;
     align-items: center;
